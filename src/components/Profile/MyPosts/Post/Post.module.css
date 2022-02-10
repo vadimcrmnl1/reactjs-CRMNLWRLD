@@ -1,0 +1,16 @@
+.item {
+    font-family: 'Maven Pro', bolt, serif;
+    color: whitesmoke;
+    margin: 5px 20px;
+}
+
+.like {
+    font-size: small;
+    color: black;
+    transition: 0.1s;
+}
+
+.like:hover {
+    transform: scale(1.1);
+    margin: 0 1px;
+}

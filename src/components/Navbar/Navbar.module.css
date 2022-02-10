@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Maven Pro', fantasy;
+    margin: 3px 10px;
+}
+
+.item {
+    transition: 0.1s;
+}
+
+.item:hover {
+    background-color: #00ffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+
+
+

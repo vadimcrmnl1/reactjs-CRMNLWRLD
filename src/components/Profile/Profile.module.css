@@ -1,0 +1,41 @@
+.content {
+    grid-area: c;
+    background-color: #999999;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item_ava {
+    width: 130px;
+    float: left;
+    margin: 15px 15px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.item_ava:hover {
+    transform: scale(1.6);
+}
+
+.wrapper {
+    font-family: 'Maven Pro', bolt, serif;
+    position: absolute;
+    left: 50%;
+}
+
+.item_des {
+    list-style: none;
+}
+
+.item_des:hover {
+    color: whitesmoke;
+}

@@ -1,0 +1,29 @@
+.item_tx {
+    font-family: 'Maven Pro', bolt, serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto;
+    transition: 1s;
+    position: absolute;
+    left: 50%;
+}
+.item_tx:hover {
+    transform: scale(1.2);
+    color: whitesmoke;
+}
+
+.item {
+    grid-area: f;
+    background-color: #858585;
+    border-radius: 5px;
+}
+
+.logos {
+    width: 50px;
+    margin: 3px 5px;
+    transition: 0.5s;
+}
+
+.logos:hover {
+    transform: scale(1.4);
+}
